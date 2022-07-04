@@ -1,0 +1,11 @@
+calc1 = int(input("enter number 1"))
+calc2=int(input("enter number 2"))
+operators = input("enter operator"+"+,-,*,/ ")
+if calc1==56 and calc2==2 and operators=="/":
+    print("3")
+elif operators =="+":
+    sum=calc1+calc2
+    print(sum)
+elif operators == "-":
+    minus=calc1-calc2
+    print(minus)
